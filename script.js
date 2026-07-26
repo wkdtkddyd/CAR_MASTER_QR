@@ -1,1 +1,1 @@
-function check(a){document.getElementById('r').innerHTML=a=='O'?'정답입니다!':'오답입니다.';}
+window.addEventListener('DOMContentLoaded',()=>{const v=document.getElementById('escvideo');if(v){v.onended=()=>document.getElementById('exam').scrollIntoView({behavior:'smooth'});}});function answer(v){document.getElementById('ans').innerHTML=v==='O'?'정답! ESC는 ABS/TCS를 기반으로 자세안정을 수행합니다.':'오답입니다.';}
