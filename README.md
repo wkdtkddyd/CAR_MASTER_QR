@@ -1,1 +1,1 @@
-# CAR MASTER QR V2
+esc.mp4를 esc 폴더에 넣으세요.

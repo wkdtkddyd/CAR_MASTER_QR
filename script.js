@@ -1,1 +1,1 @@
-//v2
+function check(a){document.getElementById('r').innerHTML=a=='O'?'정답입니다!':'오답입니다.';}
