@@ -1,1 +1,13 @@
-body{margin:0;font-family:Arial,sans-serif;background:#eef2f7;color:#222}header{background:#0b3d91;color:#fff;padding:50px 20px;text-align:center}.hero{max-width:1200px;margin:auto;padding:30px}.section{background:#fff;border-radius:16px;padding:25px;margin:20px 0;box-shadow:0 4px 12px rgba(0,0,0,.1)}video{width:100%;border-radius:12px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:700px){.grid{grid-template-columns:1fr}}details summary{cursor:pointer;font-weight:bold}.btn{display:inline-block;background:#0b3d91;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none}
+
+body{font-family:Arial,sans-serif;background:#eef2f5;margin:0}
+.wrap{max-width:760px;margin:auto;padding:20px}
+.card{background:#fff;border-radius:12px;padding:18px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.badges span{display:inline-block;background:#0057b8;color:#fff;padding:6px 10px;border-radius:20px;margin:4px}
+.road{display:flex;justify-content:space-between;align-items:center;margin:30px 0}
+.wheel{width:80px;height:80px;border:8px solid #333;border-radius:50%}
+.diff{width:120px;height:40px;background:#666;border-radius:8px}
+.slow{animation:s 2s linear infinite}
+.mid{animation:s 1.2s linear infinite}
+.fast{animation:s .7s linear infinite}
+@keyframes s{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+button{padding:10px 16px;margin-right:6px}
